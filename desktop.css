@@ -1,0 +1,299 @@
+@media (min-width: 800px){
+    /****************DESKTOP NAV BAR******************/
+
+    .navLinks{
+        display: none;
+    }
+
+    .navLinksMenu{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navUl{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        top: 0;
+        height: 120px;
+        list-style: none;
+        position: absolute;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .navUl li a:hover{
+        color: #bf7b2c;
+    }
+
+    .open-menu{
+        display: none;
+    }
+
+    .logoMobile {
+        display: none;
+    }
+
+    .navUl img{
+        display: block;
+    }
+
+    /**********DESTKOP SECCION PRINCIPAL DULCES DEL ALMA CON IMAGEN DE FONDO***************/
+
+    .principal{
+        position: absolute;
+        top: 30%;
+        max-width: 100%;
+        left: 50%;
+        padding: 20px;
+        margin: 10px;
+        letter-spacing: 2px;
+        line-height: 29px;
+    }
+
+    .principalContainer{
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./IMAGENES/Central/ddl.jpg);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .principal-text h1{
+        font-size: 1.6rem;
+        text-align: initial;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .principal-text p{
+        margin: 0px;
+        text-align: initial;
+        font-size: 1.3rem;
+    }
+
+    .principal-text a{
+        font-size: 15px;
+        margin: 28px 2px;
+    }
+
+    .principal-text a:hover{
+        color: #bf7b2c;
+        background-color: white;
+    }
+
+    /*SECCION PRODUCTOS*/
+
+    .divisionProductos{
+        font-size: 1.4rem;
+    }
+
+    /**************************Seccion Carrusel**************************/
+
+    .carruselFotosContainer{
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        background-color: black;
+        flex-wrap: wrap;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .carruselFotosContainer a:hover{
+        color: white;
+    }
+
+    .carruselFotos img{
+        border: none;
+        height: 500px;
+        width: 400px;
+    }
+
+    /******************* seccion alfajor de maicena ******************/
+
+    .envoltorioAlfajor {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        max-width: 1200px;
+        margin: 0px auto;
+    }
+
+    .alfajorImg img{
+        height: 300px;
+    }
+
+    .alfajorText {
+        max-width: none;
+    }
+
+    .alfajorButton{
+        display: none;
+    }
+
+    .alfajorButtonDesktop{
+        display: block;
+        border: 3px solid;
+        border-radius: 2px;
+        color: rgb(191, 123, 44);
+        text-decoration: none;
+        margin-bottom: 10px;
+        font-size: 13px;
+        padding: 7px 11px;
+        width: 85px;
+        margin: 0px auto;
+        font-weight: bold;
+    }
+
+    .alfajorButtonDesktop:hover{
+        color: white;
+    }
+
+    /******************* Seccion Calidad ******************/
+
+    .calidadContainer {
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    /********************Seccion Contacto*********************/
+
+    .contactoContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 430px;
+    }
+
+    .imagenContacto img{
+        display: block;
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+    }
+
+    /*********************Seccion Recetas********************/
+    .card .contenido-card a:hover{
+        background: #1e1d1ded;
+        color: #fff;
+    }
+
+    .card:hover{
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+    }
+
+    .container-card {
+        width: 85%;
+        max-width: 1209px;
+        flex-direction: row;
+    }
+
+    /******************Seccion Footer******************/
+    footer{
+        max-height: 250px;
+    }
+
+    .envoltorioFooter{
+        flex-direction: row;
+        max-width: 1200px;
+        justify-content: space-between;
+        color: white;
+        margin: 0px auto;
+        height: 170px;
+        align-items: inherit;
+    }
+
+    .envoltorioFooter div{
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: baseline;
+        padding-right: 0px;
+    }
+    
+    .envoltorioFooter ul{
+        list-style: none;
+        padding: 0px;
+        flex-direction: column;
+    } 
+
+    .envoltorioFooter ul li a{
+        text-decoration: none;
+    }
+
+    .envoltorioFooter i{
+        font-size: 25px;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .envoltorioFooter h4{
+        color: rgb(133, 108, 79);
+    }
+
+    .envoltorioFooter a{
+        color: white;
+        font-weight: bold;
+    }
+
+    .envoltorioFooter h4{
+        margin: 0px;
+        padding: 5px 0px 5px 0px;
+    }
+
+    .logoFooter {
+        margin: 10px;
+    }
+
+    .redesFooter{
+        align-items: center  !important;
+    }
+
+    .redesFooter li{
+        text-align: center;
+    }
+
+    .footerUL li{
+        padding: 5px 0px 5px 0px;
+    }
+
+
+    .iFrame h4 {
+        padding-left: 18px;
+    }
+
+    .iFrame h5{
+        position: relative;
+        bottom: 1%;
+        left: 18px;
+    }
+
+    iframe {
+        position: relative;
+        bottom: 13%;
+        margin: 20px;
+    }
+    
+    .envoltorioFooter a:hover{
+        color: rgb(133, 108, 79);
+    }
+}
+
+@media (min-width: 1500px){
+
+    /*media query carrucel tv*/
+
+    .carruselFotosContainer {
+        justify-content: space-around;
+    }
+
+    /*media query contacto tv*/
+
+    .contactoContainer{
+        justify-content: space-around;
+    }
+
+}
+
+
