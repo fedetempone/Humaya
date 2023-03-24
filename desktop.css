@@ -63,10 +63,11 @@
     .principal-text h1{
         font-size: 1.6rem;
         text-align: initial;
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 20px 9px;
     }
 
     .principal-text p{
+        width: 86%;
         margin: 0px;
         text-align: initial;
         font-size: 1.3rem;
@@ -258,15 +259,9 @@
         padding: 5px 0px 5px 0px;
     }
 
-
-    .iFrame h4 {
-        padding-left: 18px;
-    }
-
     .iFrame h5{
         position: relative;
         bottom: 1%;
-        left: 18px;
     }
 
     iframe {
