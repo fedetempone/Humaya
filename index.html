@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HUMAYA</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
     <link rel="icon" href="./IMAGENES/icono/dulce-de-leche.png">
     <script src="https://kit.fontawesome.com/fadc21d84a.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./miniCelulares.css">
-    <link rel="stylesheet" href="./desktop.css">
+    <link rel="stylesheet" href="./stylesheets/miniCelulares.css">
+    <link rel="stylesheet" href="./stylesheets/desktop.css">
 
 </head>
 <body>
     <header>
         <!--Nav mobile-->
         <nav>
-            <section class="navLinksMenu">
+            <section id="navLinks" class="navLinksMenu">
                 <div class="navLinks">
                     <div class="logoMobileContainer">
                         <div class="logoMobile">
@@ -33,12 +33,12 @@
                     
                 </div>
                 <ul class="navUl inactive">
-                    <li><a href="">¿Quienes Somos ?</a></li>
-                    <li><a href="">Productos</li></a>
+                    <li><a href="#contacto">¿Quienes Somos ?</a></li>
+                    <li><a href="#productos">Productos</li></a>
                     <img src="./IMAGENES/Logo/LogoHumaya100x100.png" alt="">
-                    <li><a href="">Recetas</li></a>
-                    <li><a href="">Locales</li></a>
-                    <li><a href="">Contacto</li></a>
+                    <li><a href="#recetas">Recetas</li></a>
+                    <li><a href="#footer">Locales</li></a>
+                    <li><a href="#contacto">Contacto</li></a>
                 </ul>
             </section>
         </nav>
@@ -50,15 +50,15 @@
             <div class="principal">
                 <div class="principal-text">
                     <h1>DULCES DEL ALMA</h1>
-                    <p>Los productos HUMAYA son elaborados desde hace mas de 50 años fiel a las traiciones familiares y sabores caséros, acompañando en los momentos más importantes de la vida</p>
-                    <a href="">CONOCENOS</a>
+                    <p>Los productos HUMAYA son elaborados desde hace mas de 50 años fiel a las tradiciones familiares y sabores caséros, acompañando en los momentos más importantes de la vida</p>
+                    <a href="#contacto">CONOCENOS</a>
                 </div>
             </div>
         </section>
         
-        <span class="divisionProductos">PRODUCTOS</span>
+        <span id="productos" class="divisionProductos">PRODUCTOS</span>
         
-         <section class="carruselFotosContainer">
+        <section class="carruselFotosContainer">
             <div class="carruselFotos">
                 <img src="./IMAGENES/Humaya (960 × 3600 px)/1.png" alt="">
                 <a href="">+ INFO</a>
@@ -81,7 +81,7 @@
                 </div>
                 <div class="alfajorText">
                     <h1>ALFAJORES DE MAICENA</h1>
-                    <p>Alfajores de dulce con coco rallado, rellenos con 2cm de pura dulzura. Pudiendo elegir entre dulce de leche tradicoinal, light o choconutt.</p>
+                    <p>Alfajores de dulce con coco rallado, rellenos con 2cm de pura dulzura. Pudiendo elegir entre dulce de leche tradicional, light o choconutt.</p>
                     <p>Presentación en caja de 6 y 12 alfajores.</p>
                     <a class="alfajorButtonDesktop" href="">+ INFO</a>
 
@@ -99,17 +99,17 @@
                 <div class="imagenesSinTacc">
                     <img src="./IMAGENES/calidad/organico.png" alt="">
                     <p>100%</p>
-                    <p>Organico</p>
+                    <p>ORGÁNICO</p>
                 </div>
                 <div class="imagenConservantes">
                     <img src="./IMAGENES/calidad/sinTacc.png" alt="">
-                    <p>Sin</p>
-                    <p>Conservantes</p>
+                    <p>SIN</p>
+                    <p>TACC</p>
                 </div>
                 <div class="imagenOrganico">
                     <img src="./IMAGENES/calidad/sinConservantes.png" alt="">
-                    <p>Sin</p>
-                    <p>Conservantes</p>
+                    <p>SIN</p>
+                    <p>CONSERVANTES</p>
                 </div>
             </div>
             <div class="textoContacto">
@@ -118,7 +118,7 @@
         </section>
     </main>
 
-    <section class="Contacto">
+    <section id="contacto" class="Contacto">
         <div class="contactoContainer">
             <div class="imagenContacto">
                 <img src="./IMAGENES/contacto/alfajoresContacto.png" alt="imagen de alfajores de maicena">
@@ -128,15 +128,15 @@
                 <form action="" class="contactoForm">
                     <p>
                         <label for="name">NOMBRE</label>
-                        <input type="text" name="nombre" placeholder="Ingrese su Nombre" name="name" class="contactName">
+                        <input type="text" name="nombre" placeholder="Ingrese su Nombre" name="name" class="contactName" required>
                     </p>
                     <p>
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" placeholder="Ingrese su Email" name="contactEmail">
+                        <input type="email" name="email" placeholder="Ingrese su Email" name="contactEmail" required>
                     </p>
                     <p>
                         <label for="message">CONSULTA</label>
-                        <textarea name="textarea" class="contactTextarea" rows="10" placeholder="Ingrese un Mensaje"></textarea>
+                        <textarea name="textarea" class="contactTextarea" rows="10" placeholder="Ingrese un Mensaje" required></textarea>
                     </p>
                     <p class="btn-P">
                         <button type="submit" class="contact-btn-submit">ENVIAR</button>
@@ -146,7 +146,7 @@
         </div>
     </section>
 
-    <section class="Recetas">
+    <section id='recetas' class="Recetas">
         <div class="title-cards">
                 <h2>Recetas</h2>
             </div>
@@ -158,7 +158,7 @@
                 </figure>
                 <div class="contenido-card">
                     <h3>CONITOS</h3>
-                    <p>Una deliciosa opción para acompñar las meriendas, ese antojo de medianoche o compartir con amigos.</p>
+                    <p>Una deliciosa opción para acompañar las meriendas, ese antojo de medianoche o compartir con amigos.</p>
                     <a href="">PREPARACIÓN</a>
                 </div>
             </div>
@@ -186,7 +186,7 @@
     </section>
 
     <footer>
-        <div class="envoltorioFooter">
+        <div id="footer" class="envoltorioFooter">
             <div class="logoFooter">
                 <img src="./IMAGENES/Logo/LogoHumaya100x100.png" alt="">
             </div>
@@ -195,10 +195,10 @@
                     <h4>Menú</h4>
                 </div>
                 <ul class="footerUL">
-                    <li><a href="">Home</li></a>
-                    <li><a href="">Productos</li></a>
-                    <li><a href="">Locales</li></a>
-                    <li><a href="">Contacto</li></a>
+                    <li><a href="#navLinks">Home</li></a>
+                    <li><a href="#productos">Productos</li></a>
+                    <li><a href="#">Locales</li></a>
+                    <li><a href="#contacto">Contacto</li></a>
                 </ul>
             </div>
             <div class="navigationFooter">
@@ -206,10 +206,10 @@
                     <h4>Navegación</h4>
                 </div>
                 <ul class="footerUL">
-                    <li><a href="">Preguntas Frecuentes</li></a>
-                    <li><a href="">Distribuidores</li></a>
-                    <li><a href="">Prensa</li></a>
-                    <li><a href="">Recetas Exclusivas</li></a>
+                    <li><a href="#">Preguntas Frecuentes</li></a>
+                    <li><a href="#">Distribuidores</li></a>
+                    <li><a href="#">Prensa</li></a>
+                    <li><a href="#recetas">Recetas Exclusivas</li></a>
                 </ul>
             </div>
             <div class="redesFooter">
@@ -217,9 +217,9 @@
                     <h4>Redes</h4>
                 </div>
                 <ul class="redesFooterUL">
-                    <li><a href="" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="" class="facebook"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="" class="tiktok"><i class="fa-brands fa-tiktok"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.tiktok.com" target="_blank" class="tiktok"><i class="fa-brands fa-tiktok"></i></a></li>
                 </ul>
             </div>
             <div class="iFrame">
@@ -231,7 +231,8 @@
         </div>
     </footer>
 
-<script src="./main.js"></script>
+<script src="./scripts/main.js"></script>
+<script src="./scripts/validationForm.js"></script>
 </body>
 </html>
 
