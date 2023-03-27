@@ -7,8 +7,11 @@ body{
     box-sizing: border-box;
     max-width: 100% !important;
     overflow-x: hidden !important;
-    scroll-behavior: smooth;
     font-family: 'Encode Sans', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth ;
 }
 
 /*nav bar*/

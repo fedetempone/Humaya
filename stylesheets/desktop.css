@@ -159,6 +159,12 @@
         gap: 60px;
     }
 
+    .calidadContainer img:hover{
+        -webkit-transform:.3s ease-in-out scale(1.3);
+        transform:scale(1.3);
+	    transition: .3s ease-in-out;
+    }
+
     /********************Seccion Contacto*********************/
 
     .contactoContainer{
